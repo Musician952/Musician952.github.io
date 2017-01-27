@@ -1,0 +1,5 @@
+<phases>
+	<test>
+		<string name = "fullmoon">Full Moon</string>
+	</test>
+</phases>
