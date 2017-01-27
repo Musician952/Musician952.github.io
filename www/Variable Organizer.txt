@@ -1,0 +1,205 @@
+--
+ALLOWDRIVE
+0005
+Switch
+Determines whether or not the player is allowed to drive.<vbNewLine>ON = True, OFF = False
+--
+ALLOWSLEEP
+0001
+Variable
+
+--
+ALLOWSLEEP
+0004
+Switch
+Determines whether the player is allowed to sleep.<vbNewLine>ON = True, OFF = False
+--
+ATSCHOOL
+0008
+Switch
+Determines if the player is at the school or not.<vbNewLine>ON = True, OFF = False
+--
+CARENTERED
+0002
+Switch
+Determines whether or not the player is in their car.
+--
+DIDNTMISSBUS
+0014
+Switch
+Determines if the player didn't miss the bus or not.<vbNewLine>ON = True, OFF = False
+--
+DOESNTHAVEPIECES
+0008
+Variable
+
+--
+EVENTNUMBER
+0003
+Variable
+This variable is used as a time-line and determines which events have happened in the game.<vbNewLine>1 = Created New Game<vbNewLine>2 = Found Bus Stop or Found My Car
+--
+FROMDAVIDLOST
+0010
+Switch
+
+--
+GHOSTHASPIECES
+0006
+Variable
+Determines how many pieces of the song the player has read in the Ghost House.
+--
+GHOSTHIDEJOANNA
+0027
+Switch
+Determines if Joanna should be hidden in the Ghost House or not.<vbNewLine>ON = True, OFF = False
+--
+GHOSTHOUSECOMPLETED
+0007
+Switch
+Determines if the player has completed all events inside the Ghost House. It is enabled after the piano is played.<vbNewLine>ON = True, OFF = False
+--
+GHOSTPLAYEDSONG
+0025
+Switch
+Enabled if the song has been played by the player on the piano.<vbNewLine>ON = True, OFF = False
+--
+GHOSTQUESTSTARTED
+0012
+Switch
+If enabled, the player has begun the quest to find all the pieces of the song in the Ghost House.<vbNewLine>ON = True, OFF = False
+--
+GHOSTSHOWJERRY
+0026
+Switch
+Determines whether or not Jerry should be shown in the Ghost House.<vbNewLine>ON = True, OFF = False
+--
+GHOSTWINDOWSHUT
+0029
+Switch
+Determines if the front window of the Ghost House is shut or not.<vbNewLine>ON = True, OFF = False
+--
+HASEIGHTHPIECE
+0024
+Switch
+Determines if Joanna in the Ghost House has given the fourth piece to the song.<vbNewLine>ON = True, OFF = False
+--
+HASFIFTHPIECE
+0021
+Switch
+Determines if The Ghost Boy in the Ghost House has given the fifth piece to the song.<vbNewLine>ON = True, OFF = False
+--
+HASFIRSTPIECE
+0017
+Switch
+Determines if The Ghost Boy in the Ghost House has given the first piece to the song.<vbNewLine>ON = True, OFF = False
+--
+HASFOURTHPIECE
+0020
+Switch
+Determines if The Ghost Boy in the Ghost House has given the fourth piece to the song.<vbNewLine>ON = True, OFF = False
+--
+HASSECONDPIECE
+0018
+Switch
+Determines if The Ghost Boy in the Ghost House has given the second piece to the song.<vbNewLine>ON = True, OFF = False
+--
+HASSEVENTHPIECE
+0023
+Switch
+Determines if The Ghost Boy in the Ghost House has given the seventh piece to the song.<vbNewLine>ON = True, OFF = False
+--
+HASSIXTHPIECE
+0022
+Switch
+Determines if The Ghost Boy in the Ghost House has given the sixth piece to the song.<vbNewLine>ON = True, OFF = False
+--
+HASTHIRDPIECE
+0019
+Switch
+Determines if The Ghost Boy in the Ghost House has given the third piece to the song.<vbNewLine>ON = True, OFF = False
+--
+HASYOOHOO
+0007
+Variable
+Corresponds with the number of Yoo-hoos the player has in their inventory.
+--
+INGHOSTYARD
+0028
+Switch
+Determines if the player is in the backyard of the Ghost House.<vbNewLine>ON = True, OFF = False
+--
+INSECRETHIDEOUT
+0031
+Switch
+Determines if the player is in the Secret Hideout in MAPDAVIDSNEIGHBORHOOD.<vbNewLine>ON = True, OFF = False
+--
+KEYTOGHOSTHOUSE
+0009
+Switch
+Corresponds with whether the player has the key to the Ghost House or not,<vbNewLine>ON = True, OFF = False
+--
+LOOKEDINMIRROR
+0006
+Switch
+Determines whether or not the player has looked in the cracked mirror in the Ghost House map.<vbNewLine>ON = True, OFF = False
+--
+MESSAGE1
+0005
+Variable
+
+--
+MESSAGE1
+0011
+Switch
+
+--
+MISSEDBUS
+0015
+Switch
+Determines if the player missed the bus or not.<vbNewLine>ON = True, OFF = False
+--
+MOMSPEECH
+0016
+Switch
+Enabled when and if the bus is missed, transferring the player back to their home map and getting a lecture from their mom.<vbNewLine>ON = True, OFF = False
+--
+NEWMESSAGES
+0004
+Variable
+
+--
+OUTSIDE
+0003
+Switch
+Determines whether or not the player is in an outside map.<vbNewLine>ON = True, OFF = False
+--
+PACKEDLUNCH
+0013
+Switch
+Determines if the player has a packed lunch from their mom.<vbNewLine>ON = True, OFF = False
+--
+PERIODNUMBER
+0009
+Variable
+Determines what period it is at school.<vbNewLine>0 = Just Arrived<vbNewLine>1 = Period One<vbNewLine>2 = Period Two<vbNewLine>Etc.
+--
+SHOWBUS
+0001
+Switch
+Determines whether or not the bus event(s) are shown.<vbNewLine>ON = True, OFF = False
+--
+SHOWMRFOTTA
+0032
+Switch
+Determines whether or not to show Mr. Fotta in the backyard of the Fotta's House.<vbNewLine>ON = True, OFF = False
+--
+SHOWTRACY
+0030
+Switch
+Determines whether or not to show Tracy in the backyard of the Fotta's House.<vbNewLine>ON = True, OFF = False
+--
+TIMEOFDAY
+0002
+Variable
+Determines the Time of Day in the game.<vbNewLine>0 = Morning, 1 = Sunset, 2 = Night
